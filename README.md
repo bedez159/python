@@ -24,4 +24,4 @@ Contenido principal:
 
 /proyectos/ → pequeños programas en Python
 
-Autor: @tuusuario
+Autor: @bedez159

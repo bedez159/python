@@ -39,3 +39,21 @@ match resp:
                 print("Has elegido Callos con garbanzos")
             case _:
                 print("ESO NO ESTA EN EL MENU")
+    case "B":
+        print("$$$$ Menu Cena $$$$")
+        print("1) Cordero asado")
+        print("2) Chuleton de buey")
+        print("3) Yogur de agua")
+        resp = int(input("Selecciona una opcion (1-3): "))
+        match resp:
+            case 1:
+                print("Has elegido Cordero asado")
+            case 2:
+                print("Has elegido Chuleton de buey")
+            case 3:
+                print("Has elegido Yogur de agua")
+            case _:
+                print("ESO NO ESTA EN EL MENU")
+    case _:
+        print("LA OPCION ELEGIDA NO ESTA EN EL MENU")
+        print("Gracias por su visita, vuelva pronto.") 

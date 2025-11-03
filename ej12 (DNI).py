@@ -17,6 +17,7 @@ DNI = input("Dame tu DNI (los 8 dígitos): ")
 if len(DNI) != 8 or not DNI.isdigit():
     print("⚠️ El DNI debe tener exactamente 8 dígitos numéricos.")
 else:
+    #se ejecuta el programa
     DNI_num = int(DNI)
     resto = DNI_num % 23
     letra = DNI_letras[resto]
